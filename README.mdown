@@ -1,0 +1,21 @@
+
+Neo4j Prep for WindyCityDB
+===
+
+To start Neo4j,
+# Navigate to the root of the version of choice.
+# $ bin/neo4j start
+
+For administration via the web, point a web browser to:
+http://localhost:7474/webadmin/
+
+To stop Neo4j:
+# Navigate to the root of the version of choice.
+# $ bin/neo4j stop
+
+For documentation & support:
+http://neo4j.org
+
+
+
+

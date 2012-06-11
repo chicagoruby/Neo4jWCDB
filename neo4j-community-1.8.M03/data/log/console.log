@@ -1,0 +1,74 @@
+10:48:28.350 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/conf, name is neo4j-server.properties
+10:48:28.355 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the path /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/conf/neo4j-server.properties
+6/11/12 10:48:28 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Starting Neo Server on port [7474] with [40] threads available
+6/11/12 10:48:28 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Enabling HTTPS on port [7473]
+6/11/12 10:48:28 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: No SSL certificate found, generating a self-signed certificate..
+10:48:28.933 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+10:48:28.934 [main] DEBUG org.mortbay.log - Container Server@7dce784b + SelectChannelConnector@localhost:7474 as connector
+10:48:28.947 [main] DEBUG org.mortbay.log - Container Server@7dce784b + SslSocketConnector@localhost:7473 as connector
+10:48:28.949 [main] DEBUG org.mortbay.log - Container Server@7dce784b + org.mortbay.thread.QueuedThreadPool@420f9c40 as threadpool
+6/11/12 10:48:28 AM org.neo4j.server.database.Database INFO: Using database at /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/data/graph.db
+10:48:29.153 [main] DEBUG neo4j.datasource - Creating new db @ /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/data/graph.db/neostore
+10:48:29.268 [main] DEBUG neo4j.xafactory - Opened [/Users/rth/Code/Neo4j/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.1] clean empty log, version=0, lastTxId=1
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+6/11/12 10:48:30 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+6/11/12 10:48:30 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+6/11/12 10:48:30 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+6/11/12 10:48:30 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+6/11/12 10:48:30 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+6/11/12 10:48:30 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+6/11/12 10:48:30 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/rth/Code/Neo4j/neo4j-community-1.8.M03/system/lib/neo4j-server-1.8.M03-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/rth/Code/Neo4j/neo4j-community-1.8.M03/system/lib/neo4j-server-1.8.M03-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+10:48:30.249 [main] INFO  org.mortbay.log - jetty-6.1.25
+10:48:30.321 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+10:48:31.691 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+10:48:31.833 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+6/11/12 10:48:31 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /webadmin
+6/11/12 10:48:31 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /db/manage
+6/11/12 10:48:31 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /db/data
+6/11/12 10:48:31 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /
+6/11/12 10:48:31 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Server started on [http://localhost:7474/]
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@8c5488
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@4614ac54
+10:56:14.811 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+10:56:14.812 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+10:56:46.032 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/conf, name is neo4j-server.properties
+10:56:46.037 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the path /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/conf/neo4j-server.properties
+6/11/12 10:56:46 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Starting Neo Server on port [7474] with [40] threads available
+6/11/12 10:56:46 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Enabling HTTPS on port [7473]
+10:56:46.301 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+10:56:46.302 [main] DEBUG org.mortbay.log - Container Server@44050988 + SelectChannelConnector@localhost:7474 as connector
+10:56:46.308 [main] DEBUG org.mortbay.log - Container Server@44050988 + SslSocketConnector@localhost:7473 as connector
+10:56:46.309 [main] DEBUG org.mortbay.log - Container Server@44050988 + org.mortbay.thread.QueuedThreadPool@4f5ad5c6 as threadpool
+6/11/12 10:56:46 AM org.neo4j.server.database.Database INFO: Using database at /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/data/graph.db
+10:56:46.495 [main] DEBUG neo4j.xafactory - Opened [/Users/rth/Code/Neo4j/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.1] clean empty log, version=1, lastTxId=1
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+6/11/12 10:56:47 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+6/11/12 10:56:47 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+6/11/12 10:56:47 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+6/11/12 10:56:47 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+6/11/12 10:56:47 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+6/11/12 10:56:47 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+6/11/12 10:56:47 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/rth/Code/Neo4j/neo4j-community-1.8.M03/system/lib/neo4j-server-1.8.M03-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/rth/Code/Neo4j/neo4j-community-1.8.M03/system/lib/neo4j-server-1.8.M03-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+10:56:47.244 [main] INFO  org.mortbay.log - jetty-6.1.25
+10:56:47.314 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+10:56:48.640 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+10:56:48.811 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+6/11/12 10:56:48 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /webadmin
+6/11/12 10:56:48 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /db/manage
+6/11/12 10:56:48 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /db/data
+6/11/12 10:56:48 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /
+6/11/12 10:56:48 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Server started on [http://localhost:7474/]
