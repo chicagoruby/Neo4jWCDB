@@ -6,7 +6,7 @@ To start Neo4j:
 * Navigate to the root directory of the Neo4j version you want to use.
 * $ bin/neo4j start
 
-For administration via the web, point a web browser to:
+For administration via the web interface, point a web browser to:
 http://localhost:7474/webadmin/
 
 To stop Neo4j:
