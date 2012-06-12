@@ -641,3 +641,11 @@
 2012-06-11 10:56:47,198 DEBUG [neo4j.diagnostics]: Mounted webadmin at: /webadmin
 2012-06-11 10:56:48,814 DEBUG [neo4j.diagnostics]: Server started on: http://localhost:7474/
 2012-06-11 10:56:48,814 DEBUG [neo4j.diagnostics]: --- SERVER STARTUP END ---
+2012-06-11 11:32:31,194 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 43907ms [total block time: 43.907s]
+2012-06-11 17:51:01,650 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 689ms [total block time: 44.596s]
+2012-06-11 17:51:25,498 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 768ms [total block time: 45.364s]
+2012-06-11 17:51:27,057 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 955ms [total block time: 46.319s]
+2012-06-11 17:52:42,645 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 56016ms [total block time: 102.335s]
+2012-06-11 21:36:55,067 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 13451920ms [total block time: 13554.255s]
+2012-06-12 00:25:20,669 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 61540ms [total block time: 13615.795s]
+2012-06-12 06:55:31,231 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 60053ms [total block time: 13675.848s]
