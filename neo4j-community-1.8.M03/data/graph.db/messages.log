@@ -649,3 +649,4 @@
 2012-06-11 21:36:55,067 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 13451920ms [total block time: 13554.255s]
 2012-06-12 00:25:20,669 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 61540ms [total block time: 13615.795s]
 2012-06-12 06:55:31,231 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 60053ms [total block time: 13675.848s]
+2012-06-12 09:59:12,488 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 60393ms [total block time: 13736.241s]
