@@ -2,6 +2,10 @@
 Neo4j Prep for WindyCityDB
 ===
 
+To install Neo4j:
+* Download the compressed files from http://neo4j.org/.
+* Decompress the files in the directory of your choice.
+
 To start Neo4j:
 * Navigate to the root directory of the Neo4j version you want to use.
 * $ bin/neo4j start
