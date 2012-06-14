@@ -650,3 +650,8 @@
 2012-06-12 00:25:20,669 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 61540ms [total block time: 13615.795s]
 2012-06-12 06:55:31,231 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 60053ms [total block time: 13675.848s]
 2012-06-12 09:59:12,488 INFO  [neo4j]: GC Monitor: Application threads blocked for an additional 60393ms [total block time: 13736.241s]
+2012-06-12 12:59:36,878 INFO  [neo4j]: Stopping - database is now unavailable
+2012-06-12 12:59:36,879 INFO  [neo4j.txmanager]: TM shutting down
+2012-06-12 12:59:36,890 INFO  [neo4j.datasource]: NeoStore closed
+2012-06-12 12:59:36,890 DEBUG [neo4j.diagnostics]: --- SHUTDOWN diagnostics START ---
+2012-06-12 12:59:36,890 DEBUG [neo4j.diagnostics]: --- SHUTDOWN diagnostics END ---

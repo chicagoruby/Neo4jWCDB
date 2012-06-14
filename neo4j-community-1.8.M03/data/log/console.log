@@ -72,3 +72,43 @@ Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/
 6/11/12 10:56:48 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /db/data
 6/11/12 10:56:48 AM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /
 6/11/12 10:56:48 AM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Server started on [http://localhost:7474/]
+6/12/12 12:59:36 PM org.neo4j.server.NeoServerBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+6/12/12 12:59:36 PM org.neo4j.server.statistic.StatisticStartupListener INFO: stopping filter
+12:59:36.768 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+12:59:36.769 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+Unable to close logical log
+java.io.FileNotFoundException: /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/data/graph.db/index/lucene.log.active (No such file or directory)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:101)
+	at org.neo4j.kernel.DefaultFileSystemAbstraction.open(DefaultFileSystemAbstraction.java:41)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.setActiveLog(XaLogicalLog.java:1567)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:717)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaContainer.close(XaContainer.java:76)
+	at org.neo4j.index.impl.lucene.LuceneDataSource.close(LuceneDataSource.java:330)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.shutdown(XaDataSourceManager.java:106)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:443)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:211)
+	at org.neo4j.kernel.AbstractGraphDatabase.shutdown(AbstractGraphDatabase.java:588)
+	at org.neo4j.server.database.Database.shutdown(Database.java:115)
+	at org.neo4j.server.NeoServerWithEmbeddedWebServer.stopDatabase(NeoServerWithEmbeddedWebServer.java:419)
+	at org.neo4j.server.NeoServerWithEmbeddedWebServer.stop(NeoServerWithEmbeddedWebServer.java:372)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:157)
+Unable to close logical log
+java.io.FileNotFoundException: /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.active (No such file or directory)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:216)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:101)
+	at org.neo4j.kernel.DefaultFileSystemAbstraction.open(DefaultFileSystemAbstraction.java:41)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.setActiveLog(XaLogicalLog.java:1567)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:717)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaContainer.close(XaContainer.java:76)
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.close(NeoStoreXaDataSource.java:296)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.shutdown(XaDataSourceManager.java:106)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:443)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:211)
+	at org.neo4j.kernel.AbstractGraphDatabase.shutdown(AbstractGraphDatabase.java:588)
+	at org.neo4j.server.database.Database.shutdown(Database.java:115)
+	at org.neo4j.server.NeoServerWithEmbeddedWebServer.stopDatabase(NeoServerWithEmbeddedWebServer.java:419)
+	at org.neo4j.server.NeoServerWithEmbeddedWebServer.stop(NeoServerWithEmbeddedWebServer.java:372)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:157)
