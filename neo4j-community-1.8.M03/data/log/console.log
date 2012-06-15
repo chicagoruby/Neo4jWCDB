@@ -112,3 +112,78 @@ java.io.FileNotFoundException: /Users/rth/Code/Neo4j/neo4j-community-1.8.M03/dat
 	at org.neo4j.server.NeoServerWithEmbeddedWebServer.stopDatabase(NeoServerWithEmbeddedWebServer.java:419)
 	at org.neo4j.server.NeoServerWithEmbeddedWebServer.stop(NeoServerWithEmbeddedWebServer.java:372)
 	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:157)
+15:21:47.647 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is /Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/conf, name is neo4j-server.properties
+15:21:47.659 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the path /Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/conf/neo4j-server.properties
+6/14/12 3:21:47 PM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Starting Neo Server on port [7474] with [40] threads available
+6/14/12 3:21:47 PM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Enabling HTTPS on port [7473]
+15:21:48.057 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+15:21:48.058 [main] DEBUG org.mortbay.log - Container Server@162200d5 + SelectChannelConnector@localhost:7474 as connector
+15:21:48.073 [main] DEBUG org.mortbay.log - Container Server@162200d5 + SslSocketConnector@localhost:7473 as connector
+15:21:48.076 [main] DEBUG org.mortbay.log - Container Server@162200d5 + org.mortbay.thread.QueuedThreadPool@1505bd58 as threadpool
+6/14/12 3:21:48 PM org.neo4j.server.database.Database INFO: Using database at /Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db
+15:21:48.438 [main] DEBUG neo4j.xafactory - Non clean shutdown detected on log [/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.1]. Recovery started ...
+15:21:48.443 [main] DEBUG neo4j.xafactory - [/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.1] logVersion=1 with committed tx=1
+15:21:48.444 [main] DEBUG neo4j.xafactory - [/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.1] entries found=0 lastEntryPos=16
+15:21:48.444 [main] DEBUG neo4j.xafactory - Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+15:21:48.445 [main] DEBUG neo4j.xafactory - XaResourceManager[/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log] sorting 0 xids
+15:21:48.446 [main] DEBUG neo4j.xafactory - XaResourceManager[/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log] checkRecoveryComplete 0 xids
+15:21:48.449 [main] DEBUG neo4j.xafactory - XaResourceManager[/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log] recovery completed.
+15:21:48.449 [main] DEBUG neo4j.xafactory - Recovery on log [/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.1] completed.
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.discovery] at [/]
+6/14/12 3:21:49 PM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.rest.web] at [/db/data]
+6/14/12 3:21:49 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+6/14/12 3:21:49 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+6/14/12 3:21:49 PM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+Logger not configured, logging to std out instead: [FINE] Adding JAXRS packages [org.neo4j.server.webadmin.rest] at [/db/manage]
+6/14/12 3:21:49 PM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+6/14/12 3:21:49 PM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+6/14/12 3:21:49 PM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Found [jar:file:/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/system/lib/neo4j-server-1.8.M03-static-web.jar!/webadmin-html]
+Logger not configured, logging to std out instead: [FINE] Mounting static content from [jar:file:/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/system/lib/neo4j-server-1.8.M03-static-web.jar!/webadmin-html] at [/webadmin]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/manage]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/db/data]
+Logger not configured, logging to std out instead: [FINE] Mounting servlet at [/]
+15:21:49.476 [main] INFO  org.mortbay.log - jetty-6.1.25
+15:21:49.548 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+15:21:51.038 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+15:21:51.208 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+6/14/12 3:21:51 PM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /webadmin
+6/14/12 3:21:51 PM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /db/manage
+6/14/12 3:21:51 PM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /db/data
+6/14/12 3:21:51 PM org.neo4j.server.statistic.StatisticStartupListener INFO: adding statistic-filter to /
+6/14/12 3:21:51 PM org.neo4j.server.NeoServerWithEmbeddedWebServer INFO: Server started on [http://localhost:7474/]
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@4a744a4d
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] 
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] ls
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] help
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] cypher
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] done
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] -h
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] help
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] status
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINE] done
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@4a744a4d
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@4a744a4d
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.console.GremlinSession@4a744a4d
+Logger not configured, logging to std out instead: [FINEST] org.neo4j.server.webadmin.rest.ShellSession@5704a4b6
+6/14/12 4:03:11 PM org.neo4j.server.NeoServerBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+6/14/12 4:03:11 PM org.neo4j.server.statistic.StatisticStartupListener INFO: stopping filter
+16:03:11.118 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+16:03:11.118 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474

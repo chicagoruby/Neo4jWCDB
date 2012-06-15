@@ -140,3 +140,78 @@ Jun 11, 2012 10:56:48 AM org.neo4j.server.logging.Logger log
 INFO: adding statistic-filter to /
 Jun 11, 2012 10:56:48 AM org.neo4j.server.logging.Logger log
 INFO: Server started on [http://localhost:7474/]
+Jun 14, 2012 3:21:47 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Jun 14, 2012 3:21:47 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Jun 14, 2012 3:21:48 PM org.neo4j.server.logging.Logger log
+INFO: Using database at /Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db
+Jun 14, 2012 3:21:48 PM org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog doInternalRecovery
+INFO: Non clean shutdown detected on log [/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/nioneo_logical.log.1]. Recovery started ...
+Jun 14, 2012 3:21:48 PM org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog doInternalRecovery
+INFO: Non clean shutdown detected on log [/Users/rth/Code/Neo4jWCDB/neo4j-community-1.8.M03/data/graph.db/index/lucene.log.1]. Recovery started ...
+Jun 14, 2012 3:21:49 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Jun 14, 2012 3:21:49 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Jun 14, 2012 3:21:49 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Jun 14, 2012 3:21:49 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Jun 14, 2012 3:21:49 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Jun 14, 2012 3:21:49 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Jun 14, 2012 3:21:49 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Jun 14, 2012 3:21:49 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.webadmin.rest
+Jun 14, 2012 3:21:49 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.webadmin.rest.JmxService
+  class org.neo4j.server.webadmin.rest.RootService
+  class org.neo4j.server.webadmin.rest.ConsoleService
+  class org.neo4j.server.webadmin.rest.MonitorService
+Jun 14, 2012 3:21:49 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Jun 14, 2012 3:21:50 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Jun 14, 2012 3:21:50 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.web
+Jun 14, 2012 3:21:50 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.web.ResourcesService
+  class org.neo4j.server.rest.web.CypherService
+  class org.neo4j.server.rest.web.ExtensionService
+  class org.neo4j.server.rest.web.DatabaseMetadataService
+  class org.neo4j.server.rest.web.RestfulGraphDatabase
+  class org.neo4j.server.rest.web.BatchOperationService
+Jun 14, 2012 3:21:50 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Provider classes found:
+  class org.neo4j.server.rest.web.DatabaseBlockedExceptionMapper
+Jun 14, 2012 3:21:50 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Jun 14, 2012 3:21:50 PM com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  org.neo4j.server.rest.discovery
+Jun 14, 2012 3:21:50 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class org.neo4j.server.rest.discovery.DiscoveryService
+Jun 14, 2012 3:21:50 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Jun 14, 2012 3:21:50 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Jun 14, 2012 3:21:51 PM org.neo4j.server.logging.Logger log
+INFO: adding statistic-filter to /webadmin
+Jun 14, 2012 3:21:51 PM org.neo4j.server.logging.Logger log
+INFO: adding statistic-filter to /db/manage
+Jun 14, 2012 3:21:51 PM org.neo4j.server.logging.Logger log
+INFO: adding statistic-filter to /db/data
+Jun 14, 2012 3:21:51 PM org.neo4j.server.logging.Logger log
+INFO: adding statistic-filter to /
+Jun 14, 2012 3:21:51 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Jun 14, 2012 4:03:11 PM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
